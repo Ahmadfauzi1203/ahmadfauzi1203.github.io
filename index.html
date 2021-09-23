@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>My Resume Cv</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="l-header" id="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Ahmad Fauzi</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link"> <i class="bx bx-home nav__icon"></i>Home </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#profile" class="nav__link"> <i class="bx bx-user nav__icon"></i>Profile </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#education" class="nav__link"> <i class="bx bx-book-bookmark nav__icon"></i>Education </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link"> <i class="bx bx-receipt nav__icon"></i>Skills </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#experience" class="nav__link"> <i class="bx bx-briefcase-alt nav__icon"></i>Experience </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#certificates" class="nav__link"> <i class="bx bx-award nav__icon"></i>Certificates </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#organisasi" class="nav__link"> <i class="bx bx-link-external nav__icon"></i>Organisasi </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="l-main bd-container">
+      <!-- All elements within this div, is generated in PDF -->
+      <div class="resume" id="area-cv">
+        <div class="resume__left">
+          <!-- HOME -->
+          <section class="home" id="home">
+            <div class="home__container section bd-grid">
+              <div class="home__data bd-grid">
+                <img src="img/saya.jpg" alt="" class="home__img" />
+
+                <h1 class="home__title">Ahmad <b>Fauzi</b></h1>
+                <h3 class="home__profession">Mahasiswa</h3>
+
+                <!-- Button to download your CV saved in PDF folder. Avaliable for mobile-->
+                <div>
+                  <a download="" href="pdf/myResume.pdf" class="home__button-movil">Download</a>
+                </div>
+              </div>
+
+              <div class="home__address bd-grid">
+                <span class="home__information"> <i class="bx bx-map home__icon"></i> DKI Jakarta - Indonesia </span>
+                <span class="home__information"> <i class="bx bx-envelope home__icon"></i> ahmadfauzi12346@gmail.com </span>
+                <span class="home__information"> <i class="bx bx-phone home__icon"></i> +62 896-8170-1431 </span>
+              </div>
+            </div>
+
+            <!-- Theme change button -->
+            <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+
+            <!-- button to generate and download the pdf, avaliable to desktop -->
+            <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+          </section>
+
+          <!-- Social
+          <section class="social section">
+            <h2 class="section-title">SOCIAL</h2>
+
+            <div class="social__container bd-grid">
+              <a href="https://id.linkedin.com/" target="_blank" class="social__link social__icon"> <i class="bx bxl-linkedin-square"></i> @ahmadfauzi </a>
+              <a href="https://github.com/" target="_blank" class="social__link social__icon"> <i class="bx bxl-github"></i> Ahmadfauzi1203 </a>
+              <a href="https://www.instagram.com/" target="_blank" class="social__link social__icon"> <i class="bx bxl-instagram"></i> @aziiee22 </a>
+            </div>
+          </section> -->
+
+          <!-- Profile -->
+          <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+
+            <p class="profile__description">Saya seorang Freshgraduate yang memiliki kemampuan di bidang Web Dev, Network Engine, Virtual Machine, dan Linux</p>
+          </section>
+
+          <!-- Education -->
+          <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+
+            <div class="education__container bd-grid">
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">S1 Teknik Informatika</h3>
+                  <span class="education__studies">Universitas Bina Sarana Informatika</span>
+                  <span class="education__year">2019 - 2023</span>
+                </div>
+              </div>
+              <div class="education__content">
+                <div class="education__time">
+                  <span class="education__rounder"></span>
+                  <span class="education__line"></span>
+                </div>
+
+                <div class="education__data bd-grid">
+                  <h3 class="education__title">Teknik Komunikasi dan Jaringan</h3>
+                  <span class="education__studies">SMKN 1 Cipunagara</span>
+                  <span class="education__year">2016-2019</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Skills -->
+          <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__content bd-grid">
+              <ul class="skills__data">
+                <li class="skills__name"><i class="bx bxl-html5 skills__icon"></i> Html</li>
+                <li class="skills__name"><i class="bx bxl-css3 skills__icon"></i> Css</li>
+                <li class="skills__name"><i class="fab fa-java skills__icon"></i>Java</li>
+                <li class="skills__name">JavaScript</li>
+              </ul>
+
+              <ul class="skills__data">
+                <li class="skills__name"><i class="bx bxl-tux skills__icon"></i> Linux</li>
+                <li class="skills__name">Virtual Machine</li>
+                <li class="skills__name">Python</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right">
+          <!-- Experience -->
+          <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
+
+            <div class="experience__container bd-grid">
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">Teknisi Printer</h3>
+                  <span class="experience__company">2018 | CV. Sarana Murah Printech</span>
+                  <span class="experience__description">Program Magang selama 3 Bulan di CV. Sarana Murah Printech sebagai teknisi Printer. berlokasi di Jaya Plaza Bandung</span>
+                </div>
+              </div>
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">teknisi printer</h3>
+                  <span class="experience__company">2018 | jaya plaza Bandung</span>
+                  <span class="experience__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, quam?</span>
+                </div>
+              </div>
+              <div class="experience__content">
+                <div class="experience__time">
+                  <span class="experience__rounder"></span>
+                  <span class="experience__line"></span>
+                </div>
+
+                <div class="experience__data bd-grid">
+                  <h3 class="experience__title">teknisi printer</h3>
+                  <span class="experience__company">2018 | jaya plaza Bandung</span>
+                  <span class="experience__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, quam?</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Certicates -->
+          <section class="certificate section" id="certificates">
+            <h2 class="section-title">Certificates</h2>
+
+            <div class="certificate__container bd-grid">
+              <div class="certificate__content">
+                <h3 class="certificate__title">Sertificate CPA: Programming Essentials in C++ | UBSI 2021</h3>
+                <p class="certificat__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolor alias nisi provident mollitia et?</p>
+              </div>
+              <div class="certificate__content">
+                <h3 class="certificate__title">Sertificate Cybersecurity Essentials | CISCO Corporate 2020</h3>
+                <p class="certificat__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolor alias nisi provident mollitia et?</p>
+              </div>
+              <div class="certificate__content">
+                <h3 class="certificate__title">Sertificate Linux fundamental Aguna Course 2021</h3>
+                <p class="certificat__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolor alias nisi provident mollitia et?</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Organisasi -->
+          <section class="organisasi section" id="organisasi">
+            <h2 class="section-title">Organisasi</h2>
+
+            <div class="organisasi__container bd-grid">
+              <div class="organisasi__content bd-grid">
+                <span class="organisasi__subtitle">Ketua | 2017-2018</span>
+                <h3 class="organisasi__title">IRMAS SMKN 1 Cipunagara</h3>
+                <p class="organisasi__description" id="org">Ikatan Remaja Masjid (IRMAS). Bertugas Mengatur kegiatan keagamaan, mensosialisasikan bidang keagamaan dan merawat tempat ibadah di sekolah</p>
+              </div>
+
+              <div class="organisasi__content bd-grid">
+                <span class="organisasi__subtitle">Koordinator Lapangan | 2017-2018</span>
+                <h3 class="organisasi__title">Pencak Silat SMKN 1 Cipunagara</h3>
+                <p class="organisasi__description" id="org">Bertugas mengatur kegiatan dilapang hingga selesai</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Languages -->
+          <section class="languages section">
+            <h2 class="section-title">Languages</h2>
+
+            <div class="languages__container">
+              <ul class="languages__content bd-grid">
+                <li class="languages__name"><span class="languages__circle"></span> English</li>
+                <li class="languages__name"><span class="languages__circle"></span> Indonesia</li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- Interests -->
+          <section class="interests section">
+            <h2 class="section-title">Interests</h2>
+
+            <div class="interests__container bd-grid">
+              <div class="interests__content">
+                <i class="bx bx-headphone interests__icon"></i>
+                <span class="interests__name">Music</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-dumbbell interests__icon"></i>
+                <span class="interests__name">Fitness</span>
+              </div>
+
+              <div class="interests__content">
+                <i class="bx bx-book-open interests__icon"></i>
+                <span class="interests__name">Read</span>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!-- Scroll Top -->
+    <a href="#" class="scrolltop" id="scroll-top">
+      <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+    <!-- HTML2PDF -->
+    <script src="js/html2pdf.bundle.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
