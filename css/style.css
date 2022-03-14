@@ -234,7 +234,8 @@ img {
   padding: 10px 20px;
   border-radius: 30px;
   border: 2px solid #000000;
-  background-color: lightseagreen;
+  background: rgb(255,134,1);
+background: linear-gradient(90deg, rgba(255,134,1,1) 0%, rgba(171,0,255,1) 100%);
 }
 
 /* Layout */
@@ -514,9 +515,9 @@ img {
   gap: 0.25rem;
 }
 
-.organisasi__title {
+/* .organisasi__title {
   color: var(--text-color-light);
-}
+} */
 
 .organisasi__title,
 .organisasi__description {
