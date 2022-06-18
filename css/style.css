@@ -494,7 +494,7 @@ background: linear-gradient(90deg, rgba(255,134,1,1) 0%, rgba(171,0,255,1) 100%)
   font-size: 3rem;
 }
 
-.skills__circle,
+
 .languages__circle {
   display: inline-block;
   width: 5px;
