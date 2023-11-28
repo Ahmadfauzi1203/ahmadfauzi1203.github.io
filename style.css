@@ -156,7 +156,7 @@ header > .container > .row > .col-sm-4 > .pic-avatar > .socmed > a > i:hover {
   > .row
   > .card
   > .card-footer {
-  padding: 0;
+  padding: 0 !important;
 }
 .portofolio-content
   > .container-fluid
