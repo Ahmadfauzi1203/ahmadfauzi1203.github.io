@@ -149,14 +149,31 @@ header > .container > .row > .col-sm-4 > .pic-avatar > .socmed > a > i:hover {
 .portofolio-content > .container-fluid > .porto-image > .row > .card {
   color: #041e44;
 }
+
 .portofolio-content
   > .container-fluid
   > .porto-image
   > .row
   > .card
-  > .card-body
+  > .card-footer {
+  padding: 0;
+}
+.portofolio-content
+  > .container-fluid
+  > .porto-image
+  > .row
+  > .card
+  > .card-footer
   > .btn {
   padding: 0;
+}
+.portofolio-content
+  > .container-fluid
+  > .porto-image
+  > .row
+  > .card
+  > .card-footer
+  > .btn-git {
   margin-right: 20px;
 }
 .portofolio-content
@@ -164,7 +181,7 @@ header > .container > .row > .col-sm-4 > .pic-avatar > .socmed > a > i:hover {
   > .porto-image
   > .row
   > .card
-  > .card-body
+  > .card-footer
   > .btn:hover {
   color: red;
 }
