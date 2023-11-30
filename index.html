@@ -31,7 +31,7 @@
     <header>
       <div class="container">
         <div class="row align-center">
-          <div class="col-sm-8">
+          <div class="col-sm-8 hidden">
             <div class="title-text">
               <h4>Hi, I am</h4>
               <h1>Ahmad Fauzi</h1>
@@ -46,7 +46,7 @@
             >
             <a href="#portofolio" class="btn btn-more mt-4">More About Me</a>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4 hidden">
             <div class="pic-avatar">
               <img src="img/avatar.jpg" alt="user picture" />
               <div class="socmed">
@@ -70,7 +70,7 @@
 
     <!-- main -->
     <main>
-      <section id="portofolio" class="portofolio-header">
+      <section id="portofolio" class="portofolio-header hidden">
         <div class="container">
           <div class="row">
             <div class="col text-center">
@@ -81,7 +81,7 @@
           </div>
         </div>
       </section>
-      <section class="portofolio-content">
+      <section class="portofolio-content hidden">
         <div class="container">
           <div class="row">
             <div class="col" align="center" id="porto">
@@ -100,11 +100,11 @@
           <div class="porto-image justify-content-center">
             <div class="row">
               <div
-                class="card filter web"
+                class="card filter web hidden"
                 style="width: 20rem; background: #eaeaea"
               >
                 <img
-                  src="img/porto/Home-AlbinTour.png"
+                  src="img/porto/albintour.png"
                   class="card-img-top"
                   alt="..."
                 />
@@ -131,7 +131,7 @@
                 </div>
               </div>
               <div
-                class="card filter web"
+                class="card filter web hidden"
                 style="width: 20rem; background: #eaeaea"
               >
                 <img
@@ -161,7 +161,7 @@
                 </div>
               </div>
               <div
-                class="card filter mobile"
+                class="card filter mobile hidden"
                 style="width: 20rem; background: #eaeaea"
               >
                 <img
@@ -195,7 +195,7 @@
       </section>
 
       <!-- Skills -->
-      <section id="skill" class="skill">
+      <section id="skill" class="skill hidden">
         <div class="container">
           <div class="row">
             <div class="col text-center">
@@ -208,14 +208,46 @@
         <div class="skill-content">
           <div class="container">
             <div class="skill-detail">
-              <img src="img/skill/html-5-svgrepo-com.svg" alt="" />
-              <img src="img/skill/css-3-svgrepo-com.svg" alt="" />
-              <img src="img/skill/javascript-svgrepo-com.svg" alt="" />
-              <img src="img/skill/php-svgrepo-com.svg" alt="" />
-              <img src="img/skill/laravel-svgrepo-com.svg" alt="" />
-              <img src="img/skill/bootstrap-svgrepo-com.svg" alt="" />
-              <img src="img/skill/mysql-logo-svgrepo-com.svg" alt="" />
-              <img src="img/skill/git-svgrepo-com.svg" alt="" />
+              <img
+                class="logo hidden"
+                src="img/skill/html-5-svgrepo-com.svg"
+                alt=""
+              />
+              <img
+                class="logo hidden"
+                src="img/skill/css-3-svgrepo-com.svg"
+                alt=""
+              />
+              <img
+                class="logo hidden"
+                src="img/skill/javascript-svgrepo-com.svg"
+                alt=""
+              />
+              <img
+                class="logo hidden"
+                src="img/skill/php-svgrepo-com.svg"
+                alt=""
+              />
+              <img
+                class="logo hidden"
+                src="img/skill/laravel-svgrepo-com.svg"
+                alt=""
+              />
+              <img
+                class="logo hidden"
+                src="img/skill/bootstrap-svgrepo-com.svg"
+                alt=""
+              />
+              <img
+                class="logo hidden"
+                src="img/skill/mysql-logo-svgrepo-com.svg"
+                alt=""
+              />
+              <img
+                class="logo hidden"
+                src="img/skill/git-svgrepo-com.svg"
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -225,7 +257,7 @@
       <section id="contact" class="contact">
         <div class="container">
           <div class="row">
-            <div class="col text-center">
+            <div class="col text-center hidden">
               <h1>Contact</h1>
               <h4>Feel free to get in touch with me</h4>
               <hr />
@@ -234,22 +266,22 @@
         </div>
         <div class="contact-content">
           <div class="row">
-            <div class="col">
+            <div class="col hidden">
               <img src="img/location@2x.png" alt="" />
               <h4>Location</h4>
               <p>Jakarta, Indonesia</p>
             </div>
-            <div class="col">
+            <div class="col hidden">
               <img src="img/phone@2x.png" alt="" />
               <h4>Call Me</h4>
               <p>+6289681701431</p>
             </div>
-            <div class="col">
+            <div class="col hidden">
               <img src="img/mail@2x.png" alt="" />
               <h4>Mail Me</h4>
               <p>ahmadfauzi12346@gmail.com</p>
             </div>
-            <div class="col">
+            <div class="col hidden">
               <img src="img/follow@2x.png" alt="" />
               <h4>Follow Me</h4>
               <span>
@@ -285,6 +317,7 @@
       integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
       crossorigin="anonymous"
     ></script>
+    <script src="main.js"></script>
     <script>
       $(document).ready(function () {
         $(".filter-porto").click(function () {
