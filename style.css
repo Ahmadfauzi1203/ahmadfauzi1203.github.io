@@ -23,7 +23,7 @@ header > .container > .row > .col-sm-8 {
   padding: 0 20px;
 }
 
-header > .container > .row > .col-sm-8 > .title-text > h4 {
+header > .container > .row > .col-sm-8 > .title-text > h3 {
   font-weight: bold;
   font-size: 28px;
   text-shadow: 0 1px #000;
@@ -52,7 +52,7 @@ header > .container > .row > .col-sm-8 > .btn:hover {
   color: #000;
 }
 header > .container > .row > .col-sm-8 > .btn-cv {
-  background-color: #f2a816;
+  background-color: #850000;
   color: #fff;
   border-radius: 10px;
 }
@@ -72,19 +72,10 @@ header > .container > .row > .col-sm-4 {
 header > .container > .row > .col-sm-4 > .pic-avatar {
   align-self: center;
 }
-header > .container > .row > .col-sm-4 > .pic-avatar > img {
-  width: 350px;
-  height: 471px;
-  max-width: 350px;
-  max-height: 471px;
-  margin-bottom: 15px;
-  object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0 0 0 1.5px #041e44;
-}
 
 header > .container > .row > .col-sm-4 > .pic-avatar > .socmed {
   gap: 0 30px;
+  margin-top: 15px;
   display: flex;
   justify-content: center;
 }
@@ -106,8 +97,8 @@ header > .container > .row > .col-sm-4 > .pic-avatar > .socmed > a > i:hover {
   font-weight: bold;
   font-size: 50px;
 }
-.portofolio-header h4 {
-  color: #d8930c;
+.portofolio-header h2 {
+  color: #850000;
   font-size: 24px;
 }
 .portofolio-content {
@@ -119,7 +110,7 @@ header > .container > .row > .col-sm-4 > .pic-avatar > .socmed > a > i:hover {
   color: #041e44;
 }
 .portofolio-content .col > .active {
-  color: #d8930c;
+  color: #850000;
 }
 
 .portofolio-content > .container-fluid {
@@ -145,6 +136,15 @@ header > .container > .row > .col-sm-4 > .pic-avatar > .socmed > a > i:hover {
   > .card
   > .card-body {
   padding: 0;
+}
+.portofolio-content
+  > .container-fluid
+  > .porto-image
+  > .row
+  > .card
+  > .card-body
+  > .card-title {
+  inset: 0;
 }
 .portofolio-content > .container-fluid > .porto-image > .row > .card {
   color: #041e44;
@@ -176,6 +176,13 @@ header > .container > .row > .col-sm-4 > .pic-avatar > .socmed > a > i:hover {
   > .btn-git {
   margin-right: 20px;
 }
+
+.portofolio-content > .container > .row > .col > .filter-porto:hover {
+  color: #850000;
+}
+.portofolio-content > .container > .row > .col > .filter-porto.active {
+  color: #850000;
+}
 .portofolio-content
   > .container-fluid
   > .porto-image
@@ -195,8 +202,8 @@ header > .container > .row > .col-sm-4 > .pic-avatar > .socmed > a > i:hover {
   font-weight: bold;
   font-size: 50px;
 }
-.skill h4 {
-  color: #d8930c;
+.skill h2 {
+  color: #850000;
   font-size: 24px;
 }
 
@@ -216,8 +223,8 @@ header > .container > .row > .col-sm-4 > .pic-avatar > .socmed > a > i:hover {
 }
 
 .skill > .skill-content > .container > .skill-detail > img {
-  max-width: 130px;
-  max-height: 130px;
+  width: 130px;
+  height: 130px;
   object-fit: cover;
 }
 
@@ -232,8 +239,8 @@ header > .container > .row > .col-sm-4 > .pic-avatar > .socmed > a > i:hover {
   font-size: 50px;
   color: #fff;
 }
-.contact h4 {
-  color: #d8930c;
+.contact h2 {
+  color: #f2a816;
   font-size: 24px;
 }
 
@@ -255,8 +262,9 @@ header > .container > .row > .col-sm-4 > .pic-avatar > .socmed > a > i:hover {
   max-width: 60px;
   object-fit: cover;
 }
-.contact > .contact-content > .row > .col > h4 {
+.contact > .contact-content > .row > .col > h2 {
   font-weight: bold;
+  color: #f2a816;
 }
 .contact > .contact-content > .row > .col > p {
   font-size: 1.2rem;
@@ -347,7 +355,7 @@ footer {
   header > .container > .row > .col-sm-8 > .btn {
     font-size: 15px;
   }
-  header > .container > .row > .col-sm-8 > .title-text > h4 {
+  header > .container > .row > .col-sm-8 > .title-text > h3 {
     font-size: 22px;
   }
   header > .container > .row > .col-sm-8 > .title-text > h1 {
