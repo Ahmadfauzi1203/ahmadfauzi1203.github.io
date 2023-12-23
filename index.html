@@ -52,6 +52,7 @@
                 src="img/avatar.jpg"
                 class="img-fluid img-thumbnail"
                 alt="user picture"
+                fetchpriority="low"
               />
               <div class="socmed">
                 <a
@@ -323,7 +324,12 @@
 
     <!-- footer -->
     <footer>
-      <p>Copyright &copy; Ahmad Fauzi 2023</p>
+      <p>
+        Copyright &copy; Ahmad Fauzi
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+      </p>
     </footer>
 
     <!-- JS -->

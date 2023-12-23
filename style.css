@@ -433,7 +433,7 @@ footer {
     width: 100%;
   }
   header > .container > .row > .col-sm-4 > .pic-avatar > img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
   }
 
@@ -445,8 +445,8 @@ footer {
     padding: 20px;
   }
   .skill > .skill-content > .container > .skill-detail > img {
-    max-width: 100%;
-    max-height: auto;
+    width: 100%;
+    height: auto;
   }
 
   .contact > .contact-content > .row {
