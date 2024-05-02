@@ -1,6 +1,6 @@
-* {
+/* * {
   border: 1px solid green;
-}
+} */
 body {
   font-family: "Bai Jamjuree", sans-serif;
   color: #041e44;
@@ -217,15 +217,14 @@ header > .container > .row > .col-sm-4 > .pic-avatar > .socmed > a > i:hover {
 .skill > .skill-content > .container {
   width: 100%;
   padding: 20px;
-  background: peru;
 }
 
 .skill > .skill-content > .container > .skill-detail {
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-columns: 15% 15% 15% 15% 15%;
   /* justify-content: center; */
   grid-gap: 30px;
-  margin: auto;
+  justify-content: center;
 }
 
 .skill > .skill-content > .container > .skill-detail > img {
