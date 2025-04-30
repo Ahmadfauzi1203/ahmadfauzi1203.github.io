@@ -14,12 +14,16 @@ header {
 }
 header > .container {
   width: 100%;
+  min-height: 100dvh;
   padding: 10px 50px;
 }
 
 header > .container > .row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center; /* Rata tengah horizontal */
+  align-items: center;
+  height: 100vh;
 }
 header > .container > .row > .col-sm-8 {
   align-self: center;
@@ -230,7 +234,8 @@ header > .container > .row > .col-sm-4 > .pic-avatar > .socmed > a > i:hover {
 .skill > .skill-content > .container > .skill-detail > img {
   width: 130px;
   height: 130px;
-  object-fit: cover;
+  object-fit: contain;
+  padding: 10px;
 }
 
 /* Contact */
@@ -378,7 +383,8 @@ footer {
 @media only screen and (max-width: 768px) {
   header > .container {
     width: 100%;
-    padding: 0;
+    padding: 0 20px;
+    height: 100dvh;
   }
 
   .skill > .skill-content > .container {
@@ -422,6 +428,7 @@ footer {
   header > .container {
     width: 100%;
     padding: 20px;
+    height: 100dvh;
   }
   header > .container > .row > .col-sm-8 > .title-text {
     text-align: center;
